@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People input bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container w-50 my-5">
+        <div class="input-people border border-dark rounded-1 p-2 d-flex">
+            <div class="people pe-1">
+                <div class="btn-group">
+                    <button class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1">
+                        <img src="img/profile2.jpeg" alt="" class="rounded-circle border border-3 border-success">
+                        Nuvia_OuO
+                    </button>
+                    <button data-bs-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split border-start-0">
+                      <span class="visually-hidden">Toggle dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">Open info card</a></li>
+                      <li><a href="#" class="dropdown-item">Move to CC</a></li>
+                      <li><hr class="dropdown-divider"></hr></li>
+                      <li><a href="#" class="dropdown-item">Remove</a></li>
+                    </ul>
+                </div>
+                <!-- final button -->
+                <div class="btn-group">
+                  <button class="btn btn-outline-secondary border-end-0 d-flex align-items-center gap-1">
+                      <img src="img/profile1.jpg" alt="" class="rounded-circle border border-3 border-success">
+                      Spartan_Lied
+                  </button>
+                  <button data-bs-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split border-start-0">
+                    <span class="visually-hidden">Toggle dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Open info card</a></li>
+                    <li><a href="#" class="dropdown-item">Move to CC</a></li>
+                    <li><hr class="dropdown-divider"></hr></li>
+                    <li><a href="#" class="dropdown-item">Remove</a></li>
+                  </ul>
+              </div>
+              <!-- final botton -->
+              <input type="text" class="flex input-text outline-0 border-0">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
